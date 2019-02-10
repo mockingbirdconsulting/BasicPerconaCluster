@@ -24,7 +24,15 @@ case "$1" in
         terraform apply;
         cd ..;
         ;;
+    tfdestroy)
+        cd terraform;
+        terraform destroy;
+        cd ..;
+        ;;
     ansinit)
         ansible-galaxy install -r requirements.yml
+        ;;
+    ansapply)
+        ansible-playbook ansible/playbooks/galera_cluster.yml
         ;;
 esac

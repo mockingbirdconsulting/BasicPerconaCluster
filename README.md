@@ -14,6 +14,12 @@ launch.sh allows you to carry out various tasks to help with development and dep
 | Argument | Action | Additional Arguments |
 |:--------:|:------:|:--------------------:|
 | NONE     | Check for the existence of the Python virtualenv, create it if it does not exist |
+| tfinit   | Intialise the Terraform providers and modules |
+| tfplan   | Run a Terraform Plan|
+| tfinit   | Apply the terraform code |
+| tfdestroy| Destroy the infrastructure |
+| ansinit  | Initialise the Ansible roles |
+| ansapply | Install the cluster using Ansible |
 
 ## Developing for this repository
 

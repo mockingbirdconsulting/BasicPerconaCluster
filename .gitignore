@@ -4,3 +4,6 @@
 **/*.backup
 **/*.bak
 **/*.cache
+**/*.tfstate
+**/*.retry
+ansible/roles
