@@ -50,3 +50,8 @@ In order to run the tests, you can run one of the following commands:
 * To test the Terraform Infrastructure, run `./bin/launch.sh test-terraform`
 
 In both cases, you will need to have your AWS Credentials available in the local environment
+
+# Copyright
+
+All content in this repository is copyright 2019 Mockingbird Consulting Ltd - The Rural IoT Consultants.
+For more information on how we can help you make better decisions, [visit our website](https://www.mockingbirdconsulting.co.uk).
