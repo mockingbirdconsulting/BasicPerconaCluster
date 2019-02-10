@@ -1,0 +1,3 @@
+# Ansible requirements file
+
+- src: liviuchircu.ansible_role_xtradb_cluster

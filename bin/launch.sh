@@ -6,6 +6,8 @@ if [ ! -d ".venv" ]; then
     pip install -r requirements.txt
 fi
 
+source .venv/bin/activate
+
 case "$1" in
     tfinit)
         cd terraform;
@@ -21,5 +23,8 @@ case "$1" in
         cd terraform;
         terraform apply;
         cd ..;
+        ;;
+    ansinit)
+        ansible-galaxy install -r requirements.yml
         ;;
 esac
