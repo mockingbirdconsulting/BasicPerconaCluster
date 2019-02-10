@@ -8,6 +8,12 @@ fi
 
 source .venv/bin/activate
 
+if [ -z "$DO_API_TOKEN" ];then
+    echo "Digital Ocean API Token has not been set.";
+    echo "Please run 'export DO_API_TOKEN=<YOURTOKENHERE>' and then re-run this script";
+    exit 1
+fi
+
 case "$1" in
     tfinit)
         cd terraform;
