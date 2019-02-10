@@ -1,0 +1,6 @@
+.venv/
+**/.terraform
+**/.kitchen
+**/*.backup
+**/*.bak
+**/*.cache
